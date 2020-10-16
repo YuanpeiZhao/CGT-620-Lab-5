@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\OneDrive - purdue.edu\Purdue\CGT 620\Lab 5\Random Faults CUDA\Random Faults>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\OneDrive - purdue.edu\Purdue\CGT 620\Lab 5\Random Faults CUDA\Random Faults\kernel.cu" 
+  kernel.cu
+D:\OneDrive - purdue.edu\Purdue\CGT 620\Lab 5\Random Faults CUDA\Random Faults\include\trackball.h(109): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive - purdue.edu/Purdue/CGT 620/Lab 5/Random Faults CUDA/Random Faults/kernel.cu(68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:/OneDrive - purdue.edu/Purdue/CGT 620/Lab 5/Random Faults CUDA/Random Faults/kernel.cu(72): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:/OneDrive - purdue.edu/Purdue/CGT 620/Lab 5/Random Faults CUDA/Random Faults/kernel.cu(198): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+D:/OneDrive - purdue.edu/Purdue/CGT 620/Lab 5/Random Faults CUDA/Random Faults/kernel.cu(199): warning C4244: '-=': conversion from 'double' to 'GLfloat', possible loss of data
+D:/OneDrive - purdue.edu/Purdue/CGT 620/Lab 5/Random Faults CUDA/Random Faults/kernel.cu(337): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:/OneDrive - purdue.edu/Purdue/CGT 620/Lab 5/Random Faults CUDA/Random Faults/kernel.cu(337): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:/OneDrive - purdue.edu/Purdue/CGT 620/Lab 5/Random Faults CUDA/Random Faults/kernel.cu(343): warning C4996: 'cudaThreadSynchronize': was declared deprecated
+  Random Faults.vcxproj -> D:\OneDrive - purdue.edu\Purdue\CGT 620\Lab 5\Random Faults CUDA\x64\Debug\Random Faults.exe
